@@ -35,15 +35,15 @@ public class SolveMaze {
          */
         for (int step = 0; step < 1000; step++) {
             // Implement your maze solving algorithm here
-            while (isFinished() == false):
-            if (canMove() == true):
-            move()
-            else if (canMove() == false):
-            turnRight()
-            for (turnRight = 0; turnRight < 5; turnRight++):
-            turnLeft()
-            for (turnLeft = 0; turnLeft < 5; turnLeft++):
-            turnRight()
+            while (maze.isFinished() == false):
+            if (maze.canMove() == true):
+            maze.move()
+            else if (maze.canMove() == false):
+            maze.turnRight()
+            for (maze.turnRight() = 0; maze.turnRight() < 5; maze.turnRight()++):
+            maze.turnLeft()
+            for (maze.turnLeft() = 0; maze.turnLeft() < 5; maze.turnLeft()++):
+            maze.turnRight()
         }
 
         if (maze.isFinished()) {
